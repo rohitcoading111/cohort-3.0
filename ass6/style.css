@@ -805,8 +805,6 @@ html,body{
     width:55%;
 }
 
-/* ================= DISCOVER TAG ================= */
-
 .discover span{
     display:inline-block;
 
@@ -825,7 +823,6 @@ html,body{
     margin-bottom:35px;
 }
 
-/* ================= HEADING ================= */
 
 .discover h1{
     font-size:78px;
@@ -841,7 +838,6 @@ html,body{
     font-style:italic;
 }
 
-/* ================= SEARCH ================= */
 
 .search-box{
     width:420px;
@@ -878,7 +874,6 @@ html,body{
     color:#a3a3a3;
 }
 
-/* ================= SMALL TEXT ================= */
 
 .discover h4{
     font-size:20px;
@@ -887,7 +882,6 @@ html,body{
     margin-bottom:35px;
 }
 
-/* ================= VIBES ================= */
 
 .vibes{
     display:flex;
@@ -915,7 +909,6 @@ html,body{
     background:#c8daf3;
 }
 
-/* ================= RESPONSIVE ================= */
 
 @media(max-width:1100px){
 
