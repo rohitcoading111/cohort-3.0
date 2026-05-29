@@ -1494,7 +1494,7 @@ review-card green
         font-size:14px;
     }
 }
-/* ================= PAGE 6 ================= */
+
 
 #page6{
     width:100%;
@@ -1538,9 +1538,6 @@ review-card green
 .page6-right button{
     display: none;
 }
-
-
-/* ================= PAGE 7 ================= */
 
 #page7{
     width:100%;
@@ -1823,11 +1820,6 @@ review-card green
         height:100%;
         object-fit:contain;
     }
-
-
-
-    /* ===== PAGE 7 ===== */
-
     #page7{
         width:100%;
         min-height:100vh;
@@ -1870,10 +1862,6 @@ review-card green
         letter-spacing:1px;
         margin-bottom: 80px;
     }
-
-
-
-    /* ===== SLIDER ===== */
 
     .slider{
         width:100%;
@@ -1942,10 +1930,6 @@ review-card green
 
         background:#fff;
     }
-
-
-
-    /* ===== ARROWS ===== */
 
 .left-arrow,
 .right-arrow{
@@ -2017,8 +2001,6 @@ review-card green
     font-style:italic;
 }
 
-
-
 .journal-cards{
     width:100%;
 
@@ -2065,9 +2047,6 @@ review-card green
     font-weight:400;
 }
 
-
-
-
 .journal-card{
     width:320px;
 
@@ -2086,8 +2065,6 @@ review-card green
 .journal-card:hover{
     transform:translateY(-8px);
 }
-
-
 
 .card-img{
     width:100%;
@@ -2125,8 +2102,6 @@ review-card green
     object-fit:cover;
 }
 
-
-
 .card-bottom{
     width:100%;
     height: 60px;
@@ -2143,8 +2118,6 @@ review-card green
     font-weight:500;
     letter-spacing:1px;
 }
-
-
 
 .journal-btn{
     width:100%;
@@ -2252,4 +2225,500 @@ review-card green
         font-size:18px;
     }
 
+}
+#page9{
+    width:100%;
+    min-height:100vh;
+    background-image:url("//www.twoleavestea.com/cdn/shop/files/Two_Leaves_Tea_Aug_25_Shoot-14x_SQ_1_d549e6bb-f1ad-4b36-a851-05e1af195a31.webp?v=1771593222&width=3200");
+    background-size:cover;
+    background-position:center;
+
+    position:relative;
+}
+
+.page9-overlay{
+    width:100%;
+    height:100%;
+
+    padding:40px;
+
+    display:flex;
+    align-items:flex-start;
+}
+
+.left-box{
+    width:430px;
+    height:670px;
+    background:#f96508;
+    border:2px solid #222;
+    border-radius:18px;
+    padding:55px 40px;
+}
+
+.left-box h1{
+    color:#fff;
+    font-size:56px;
+    font-family:serif;
+    font-weight:400;
+}
+.left-box p{
+    margin-top: 190px;
+      color:#fff;
+      font-size: 20px;
+}
+.left-box button{
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 25px;
+    width: 160px;
+}
+.left-box button h3{
+    font-size: 30px;
+}
+#footer{
+    width:100%;
+    height:380px;
+    background:#bfd1f0;
+    padding:0 90px;
+}
+.top123 {
+  margin-left: 230px;
+  margin-bottom: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.top123 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.top123 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.ftbottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-left input{
+    width:380px;
+    height:74px;
+    margin-top: 50px;
+    border:2px solid #444;
+    border-radius:16px;
+
+    padding:0 24px;
+
+    background:#f4f4f4;
+
+    font-size:24px;
+
+    outline:none;
+}
+.footer-left button{
+    height: 50px;
+    border-radius: 25px;
+    width: 160px;
+    background-color: blue;
+    color: #fff;
+}
+.footer-left input::placeholder{
+    color:#999;
+}
+
+.footer-right{
+    display:flex;
+    align-items:center;
+
+    gap:18px;
+}
+
+.social{
+    width:74px;
+    height:74px;
+   margin-top: 50px;
+    border:2px solid #222;
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#fff;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+}
+
+.social i{
+    font-size:34px;
+}
+
+.social:hover{
+    transform:translateY(-5px);
+}
+
+@media(max-width:700px){
+
+    #page9{
+        height:620px;
+        background-position:center;
+    }
+  #page9 .bottom p{
+    display: none;
+  }
+    .page9-overlay{
+        padding:20px;
+    }
+
+    .left-box{
+        width:230px;
+        height:300px;
+
+        padding:28px 22px;
+    }
+
+    .left-box h1{
+        font-size:36px;
+        line-height:58px;
+    }
+     
+
+
+    #footer{
+        height:auto;
+
+        padding:35px 20px;
+
+        flex-direction:column;
+
+        gap:35px;
+    }
+
+    .footer-left{
+        width:100%;
+    }
+
+    .footer-left input{
+        width:100%;
+        height:62px;
+
+        font-size:18px;
+
+        border-radius:14px;
+    }
+
+    .footer-right{
+        gap:14px;
+    }
+
+    .social{
+        width:58px;
+        height:58px;
+    }
+
+    .social i{
+        font-size:26px;
+    }
+
+}
+#page10{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #c8d9f0;
+    padding: 2vw;
+}
+.footer-top{
+    width: 100%;
+
+    background-color: #27245c;
+
+    border-radius: 20px;
+
+    padding: 3vw 2vw;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 3vw;
+}
+
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+
+    gap: .8vw;
+}
+
+
+.footer-col h3{
+    color: white;
+
+    font-size: 1.5vw;
+    font-weight: 500;
+
+    margin-bottom: 1vw;
+}
+
+.footer-col a{
+    width: fit-content;
+
+    text-decoration: none;
+
+    color: #9d9cb7;
+
+    font-size: 1.1vw;
+
+    position: relative;
+
+    transition: all ease .3s;
+}
+
+
+
+.footer-col a::after{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -2px;
+
+    width: 0%;
+    height: 1px;
+
+    background-color: white;
+
+    transition: all ease .4s;
+}
+
+.footer-col a:hover{
+    color: white;
+}
+
+.footer-col a:hover::after{
+    width: 100%;
+}
+
+.footer-center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-center img{
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 120px;
+
+}
+@media (max-width:600px){
+
+    #page10{
+        padding: 5vw;
+    }
+
+    .footer-top{
+        padding: 8vw 6vw;
+
+        flex-direction: column;
+
+        gap: 10vw;
+
+        border-radius: 15px;
+    }
+
+    .footer-col{
+        gap: 3vw;
+    }
+
+    .footer-col h3{
+        font-size: 6vw;
+
+        margin-bottom: 3vw;
+    }
+
+    .footer-col a{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width:1366px) and (max-width:1600px){
+
+    .navbar{
+        width:96%;
+    }
+
+    .hero-left{
+        width:42%;
+    }
+
+    .hero-left h1{
+        font-size:80px;
+        line-height:80px;
+    }
+
+    .hero-left p{
+        font-size:20px;
+        line-height:32px;
+    }
+
+    #page4 h1{
+        font-size:110px;
+        line-height:110px;
+    }
+
+    #page4 p{
+        width:75%;
+        font-size:42px;
+        line-height:56px;
+    }
+
+    .discover{
+        width:65%;
+    }
+
+    .discover h1{
+        font-size:65px;
+        line-height:75px;
+    }
+
+    .top{
+        padding-left:80px;
+    }
+
+    .top h1{
+        font-size:65px;
+        line-height:75px;
+    }
+
+    .top span{
+        font-size:42px;
+    }
+
+    .page6-right{
+        padding-left:40px;
+    }
+
+    .page6-right h1{
+        font-size:65px;
+        line-height:75px;
+    }
+
+    .slider-right h2{
+        font-size:70px;
+    }
+
+    .slider-right p{
+        font-size:22px;
+        line-height:34px;
+    }
+
+    .top22 span{
+        margin-left:150px;
+    }
+
+    .top22 h1{
+        width:80%;
+        margin-left:150px;
+        font-size:50px;
+        line-height:55px;
+    }
+
+    .footer-center img{
+        margin-left:0;
+    }
+
+    .footer-center{
+        justify-content:center;
+    }
+     #page4{
+        min-height:170vh;
+        height:auto;
+        padding-bottom:120px;
+    }
+
+    #page4 h1{
+        font-size:110px;
+        line-height:110px;
+    }
+
+    #page4 p{
+        width:75%;
+        font-size:42px;
+        line-height:55px;
+    }
+
+    .stickers{
+        margin-top:20px;
+        margin-bottom:50px;
+    }
+
+    .btn{
+        margin-top:50px;
+    }
+
+
+    .reviews{
+        display:flex;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        gap:20px;
+        padding-bottom:20px;
+        justify-content:flex-start;
+    }
+
+    .reviews::-webkit-scrollbar{
+        height:8px;
+    }
+
+    .review-card{
+        flex-shrink:0;
+        width:290px;
+        min-height:620px;
+        height:auto;
+    }
+
+    .review-text h2{
+        font-size:20px;
+        line-height:42px;
+    }
+
+    .review-text p{
+        font-size:18px;
+    }
+
+
+    .top22{
+        align-items:center;
+        text-align:center;
+    }
+
+    .top22 span{
+        margin-left:0;
+    }
+
+    .top22 h1{
+        margin-left:0;
+        width:90%;
+        text-align:center;
+    }
+
+    .footer-center{
+        justify-content:center;
+    }
+
+    .footer-center img{
+        margin-left:0;
+    }
+
+    #page10{
+        min-height:auto;
+    }
 }
